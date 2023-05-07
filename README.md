@@ -10,8 +10,8 @@ You are given a set of items, each with a weight and a value, and a knapsack wit
 * n: The number of items
 * weights: A list of n positive integers representing the weights of the items, where weights[i] is the weight of item i.
 * values: A list of n positive integers representing the values of the items, where values[i] is the value of item i.
- *capacity: A positive integer representing the maximum weight capacity of the knapsack.
-### The objective is to find a subset of items to include in the knapsack such that the total weight does not exceed the capacity, and the total value is maximized.
+* capacity: A positive integer representing the maximum weight capacity of the knapsack.
+## The objective is to find a subset of items to include in the knapsack such that the total weight does not exceed the capacity, and the total value is maximized.
 
 This problem can be solved using various algorithms, including dynamic programming, greedy algorithms, and backtracking. In this case, we will explore novel approaches to solving the Knapsack problem, such as quantum machine learning, swarm intelligence, deep reinforcement learning, and biological computing.
 
@@ -21,7 +21,7 @@ In order to implement a swarm intelligence-based solution for the Knapsack probl
 
 1. Increase the number of particles: Increasing the number of particles in the swarm may improve the exploration of the solution space. However, it can also increase the computational cost. Try increasing the num_particles parameter to 100 or 200.
 
-.2 Increase the number of generations: Allowing the algorithm to run for more generations can help it converge to better solutions. Try increasing the num_generations parameter to 500 or 1000.
+2. Increase the number of generations: Allowing the algorithm to run for more generations can help it converge to better solutions. Try increasing the num_generations parameter to 500 or 1000.
 
 3. Tune the inertia weight (w): The inertia weight helps balance the exploration (global search) and exploitation (local search) in the algorithm. You can try decreasing it to 0.5 or increasing it to 0.9.
 
