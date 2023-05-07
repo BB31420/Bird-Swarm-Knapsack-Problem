@@ -26,3 +26,5 @@ In order to implement a swarm intelligence-based solution for the Knapsack probl
 3. Tune the inertia weight (w): The inertia weight helps balance the exploration (global search) and exploitation (local search) in the algorithm. You can try decreasing it to 0.5 or increasing it to 0.9.
 
 4. Tune the cognitive and social coefficients (c1 and c2): These coefficients control how much the particles are influenced by their personal best and the swarm's global best. You can try different values like c1 = 1, c2 = 3 or c1 = 3, c2 = 1.
+
+![results](https://i.imgur.com/Sh9bhZK.png)
