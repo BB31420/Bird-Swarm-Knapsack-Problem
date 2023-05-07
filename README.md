@@ -1,5 +1,5 @@
 # Bird-Swarm
-A neat approach at the Knapsack problem.
+
 
 ## The Knapsack problem is a classic combinatorial optimization problem. It is defined as follows:
 
