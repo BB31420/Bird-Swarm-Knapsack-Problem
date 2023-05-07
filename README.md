@@ -17,3 +17,12 @@ This problem can be solved using various algorithms, including dynamic programmi
 
 In order to implement a swarm intelligence-based solution for the Knapsack problem, we will use the Particle Swarm Optimization (PSO) algorithm. PSO is inspired by the social behavior of birds flocking or fish schooling, and it has been successfully applied to various optimization problems.
 
+## To improve the performance of the Particle Swarm Optimization (PSO) algorithm, we can try tuning its parameters. Here are some suggestions to try:
+
+1. Increase the number of particles: Increasing the number of particles in the swarm may improve the exploration of the solution space. However, it can also increase the computational cost. Try increasing the num_particles parameter to 100 or 200.
+
+.2 Increase the number of generations: Allowing the algorithm to run for more generations can help it converge to better solutions. Try increasing the num_generations parameter to 500 or 1000.
+
+3. Tune the inertia weight (w): The inertia weight helps balance the exploration (global search) and exploitation (local search) in the algorithm. You can try decreasing it to 0.5 or increasing it to 0.9.
+
+4. Tune the cognitive and social coefficients (c1 and c2): These coefficients control how much the particles are influenced by their personal best and the swarm's global best. You can try different values like c1 = 1, c2 = 3 or c1 = 3, c2 = 1.
